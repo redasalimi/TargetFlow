@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.python-version
+
+# Django
+db.sqlite3
+*.log
+staticfiles/
+media/
+
+# Pipenv/pip
+.venv/
+env/
+.env
+
+# Data files
+data/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp

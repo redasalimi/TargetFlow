@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-cors-headers = "*"
+scikit-learn = "*"
+pandas = "*"
+numpy = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+reportlab = "*"
+python-dotenv = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
+google-genai = "*"
+google-generativeai = "*"
+whitenoise = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.14"
